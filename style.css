@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding: 0.1px;
+}
+
+#page1 #part1 #part1-center{
+    height: 80vh;
+    width: 25vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    transition: all ease 0.5s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+}
+
+#page1 #part1 #part1-right{
+    height: 50vh;
+    width: 20vw;
+    transition: all ease 0.5s;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%,-50%) rotate(15deg);
+    z-index: 3;
+}
+
+#page1 #part1 #part1-left{
+    height: 50vh;
+    transition: all ease 0.5s;
+    width: 20vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%,-50%) rotate(-15deg);
+    z-index: 3;
+}
+
+#page1 h1{
+    font-size: 300px;
+    font-weight: 100;
+    transition: all ease 0.5s;
+    color: rgb(198, 46, 46);
+}
+
+#hh1{
+    z-index: 7;
+    transition: all ease 0.5s;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+#page2{
+    height: 150px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding: 0.1px;
+}
+
+#part1-img{
+    transition: all ease 1s;
+}
+
+#part2-img #part2-cen{
+    height: 80vh;
+    width: 25vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 300%;
+    z-index: 9;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#part2-right{
+    height: 50vh;
+    width: 20vw;
+    transition: all ease 0.5s;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    z-index: 3;
+}
+
+#part2 #part2-left{
+    height: 50vh;
+    transition: all ease 0.5s;
+    width: 20vw;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    z-index: 3;
+}
+
+#page2 #hh2 h1{
+    font-size: 300px;
+    font-weight: 100;
+    transition: all ease 0.5s;
+    color: rgb(198, 46, 46);
+}
+
+#hh2{
+    z-index: 9;
+    transition: all ease 0.5s;
+    position: absolute;
+    display: flex;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
